@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Natya Tantra</title>
+	<style>
+	body
+	{
+		background-image: url("background3.jpg");
+		background-position: center;
+		background-size: cover;
+	}
+	p
+	{
+color: black;
+font-size: 100px;
+text-align: center;
+font-family: serif;
+font-style: oblique;
+	}
+	ul {
+    	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+	}
+
+	li {
+    float: left;
+	}
+
+	li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.logo{
+width: 100%;
+height: 300px;
+margin: 0px;
+padding: 0px;
+top: 0px;
+}
+</style>
+</head>
+<body>
+<img src="D:\Launchpad\LogoMakr_2KA2Pn.png" class="logo">
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#learn">Learn</a></li>
+  <li><a href="#theorylesson">Theory Lesson</a></li>
+  <li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<div style="height:1000px;">
+</div>
+<img src="D:\Launchpad\clipart.jpg">
+</body>
+</html>
