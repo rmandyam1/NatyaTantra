@@ -6,6 +6,7 @@
   body
   {
     background-color: black;
+    /*background-image: "D:/Launchpad/background4.jpg";*/
     margin: 0;
     padding: 0;
   }
@@ -15,7 +16,6 @@
     font-size: 100px;
     text-align: center;
     font-family: Constantia, Cambria, serif;
-    font-style: oblique;
   }
   ul {
     font-family: Constantia, Cambria, serif;
@@ -23,7 +23,7 @@
     margin: -4px;
     padding: 0;
     overflow: hidden;
-    background-color: black/*#333*/;
+    background-color: #FBF2A3/*#333*/;
     position: fixed;
     top: 0;
     width: 100%;
@@ -32,32 +32,36 @@
     top: 0;
     line-height: 50px;
   }
-  li {
+  li b {
     float: left;
   }
   li a {
     display: block;
-    color: white;
+    color: black;
+    font-weight: bold;
     text-align: center;
     padding: 14px 17px;
     text-decoration: none;
+    float: right;
   }
   li a:hover:not(.active) {
-    background-color: #997a00;
+    background-color: #CCA762;
   }
   .active {
-    background-color: #CDA944;
+    background-color: #B98847;
   }
   .logo {
     display: block;
-    width: 100%;
+    width: 365px;
     font-size: 0;
-    height: 300px;
+    height: 78px;
     top: 0px;
     display:inline-block;
     padding:0px;
-    margin-left:-4px;
-    margin-right: -4px;
+    margin-left:0px;
+    margin-right: 0px;
+    float: left;
+
   }
   div {
     font-family: Constantia, Cambria, serif;
@@ -67,14 +71,15 @@
   </style>
 </head>
 <body>
-  <img src="D:\Launchpad\logo1.png" class="logo">
   <ul>
-    <li><a class="active" href="#home">Home</a></li>
-    <li><a href="#whatisbharatanatyam">What is Bharatanatyam?</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#lessons">Lessons</a></li>
-    <li><a href="#theorylesson">Theory Lesson</a></li>
+
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#theorylesson">Theory Lesson</a></li>
+    <li><a href="#lessons">Lessons</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#whatisbharatanatyam">What is Bharatanatyam?</a></li>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><b href="#home"><img src="D:\Launchpad\logo1.png" class="logo"></b></li>
   </ul>
   <div>
     <h1>Contact us!</h1>
