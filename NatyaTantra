@@ -15,7 +15,7 @@
     color: black;
     font-size: 100px;
     text-align: center;
-    font-family: Constantia, Cambria, serif;
+    font-family: "Libby", Cambria, serif;
   }
   ul {
     font-family: Constantia, Cambria, serif;
@@ -38,21 +38,21 @@
   li a {
     display: block;
     color: black;
-    font-weight: bold;
     text-align: center;
     padding: 14px 17px;
     text-decoration: none;
     float: right;
   }
   li a:hover:not(.active) {
-    background-color: #CCA762;
+    opacity: 0.5;
   }
   .active {
-    background-color: #B98847;
+    font-weight: bold;
+    text-decoration: underline;
   }
   .logo {
     display: block;
-    width: 365px;
+    width: 380px;
     font-size: 0;
     height: 78px;
     top: 0px;
