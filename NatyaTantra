@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Natya Tantra</title>
   <style>
   body
   {
-    background-color: black;
+    background-color: white;
     /*background-image: "D:/Launchpad/background4.jpg";*/
     margin: 0;
     padding: 0;
@@ -18,7 +19,7 @@
     font-family: "Libby", Cambria, serif;
   }
   ul {
-    font-family: Constantia, Cambria, serif;
+    font-family: "Libby Heavy", Cambria, serif;
     list-style-type: none;
     margin: -4px;
     padding: 0;
@@ -68,9 +69,35 @@
     color: white;
     text-align: center;
   }
+  .natraja
+  {
+     width: 100%;
+  }
+  .centered {
+    position: absolute;
+    size: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.parallax {
+    /* The image used */
+    background-image: url("natraja.png");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
   </style>
+
 </head>
 <body>
+  <div>
   <ul>
 
     <li><a href="#contact">Contact</a></li>
@@ -79,10 +106,15 @@
     <li><a href="#about">About</a></li>
     <li><a href="#whatisbharatanatyam">What is Bharatanatyam?</a></li>
     <li><a class="active" href="#home">Home</a></li>
-    <li><b href="#home"><img src="D:\Launchpad\logo1.png" class="logo"></b></li>
+    <li><b href="#home"><img src="/Users/shwetha/Desktop/logo1.png" class="logo"></b></li>
   </ul>
-  <div>
-    <h1>Contact us!</h1>
+  </div>
+    <div class="parallax"></div>
+    <div style="height:1000px;color:black;font-size:36px">
+      <h1>Want to learn Bharatanayam?</h1>
+    </div>
+      <div style="color: black">
+    <h1 >Contact us!</h1>
     <form>
       Name: <input type="text" name="fname" value="First Name" required><br>
       Email: <input type="text" name="email" value="Email" required><br>
