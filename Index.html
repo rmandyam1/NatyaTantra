@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Natya Tantra</title>
+  <style>
+  body
+  {
+    background-color: white;
+    /*background-image: "D:/Launchpad/background4.jpg";*/
+    margin: 0;
+    padding: 0;
+  }
+  p
+  {
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    font-family: "Libby", Cambria, serif;
+  }
+  ul {
+    font-family: "Libby Heavy", Cambria, serif;
+    list-style-type: none;
+    margin: -4px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FBF2A3/*#333*/;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    line-height: 50px;
+  }
+  li b {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+    float: right;
+  }
+  li a:hover:not(.active) {
+    opacity: 0.5;
+  }
+  .active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .logo {
+    display: block;
+    width: 380px;
+    font-size: 0;
+    height: 78px;
+    top: 0px;
+    display:inline-block;
+    padding:0px;
+    margin-left:0px;
+    margin-right: 0px;
+    float: left;
+
+  }
+  div {
+    font-family: Constantia, Cambria, serif;
+    color: white;
+    text-align: center;
+  }
+  .natraja
+  {
+     width: 100%;
+  }
+  .centered {
+    position: absolute;
+    size: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.parallax {
+    /* The image used */
+    background-image: url("natraja.png");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+  </style>
+
+</head>
+<body>
+  <div>
+  <ul>
+
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#theorylesson">Theory Lesson</a></li>
+    <li><a href="#lessons">Lessons</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#whatisbharatanatyam">What is Bharatanatyam?</a></li>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><b href="#home"><img src="/Users/shwetha/Desktop/logo1.png" class="logo"></b></li>
+  </ul>
+  </div>
+    <div class="parallax"></div>
+    <div style="height:1000px;color:black;font-size:36px">
+      <h1>Want to learn Bharatanayam?</h1>
+    </div>
+      <div style="color: black">
+    <h1 >Contact us!</h1>
+    <form>
+      Name: <input type="text" name="fname" value="First Name" required><br>
+      Email: <input type="text" name="email" value="Email" required><br>
+      <input type="button" name= "submit" value = "Submit"><br>
+    </form>
+  </div>
+</body>
+</html>
+/*<!DOCTYPE html>
+<html>
+<head>
+  <title>Natya Tantra</title>
+  <style>
+  body
+  {
+    background-color: black;
+    /*background-image: "D:/Launchpad/background4.jpg";*/
+    margin: 0;
+    padding: 0;
+  }
+  p
+  {
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    font-family: Constantia, Cambria, serif;
+  }
+  ul {
+    font-family: "Libby Heavy", Cambria, serif;
+    font-size: 12px;
+    list-style-type: none;
+    margin: -4px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FBF2A3/*#333*/;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    line-height: 50px;
+  }
+  li b {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+    float: right;
+  }
+  li a:hover:not(.active) {
+    opacity: 0.5;
+  }
+  .active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .logo {
+    display: block;
+    width: 380px;
+    font-size: 0;
+    height: 78px;
+    top: 0px;
+    display:inline-block;
+    padding:0px;
+    margin-left:0px;
+    margin-right: 0px;
+    float: left;
+
+  }
+  div {
+    font-family: Constantia, Cambria, serif;
+    color: white;
+    text-align: center;
+  }
+  </style>
+</head>
+<body>
+  <ul>
+
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="theorylesson.html">Theory Lesson</a></li>
+    <li><a href="lessons.html">Lessons</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="whatisbharatanatyam.html">What is Bharatanatyam?</a></li>
+    <li><a class="active" href="NatyaTantra.html">Home</a></li>
+    <li><b href="NatyaTantra.html"><img src="D:\Launchpad\logo1.png" class="logo"></b></li>
+  </ul>
+  <div>
+    <h1>Contact us!</h1>
+    <form>
+      Name: <input type="text" name="fname" value="First Name" required><br>
+      Email: <input type="text" name="email" value="Email" required><br>
+      <input type="button" name= "submit" value = "Submit"><br>
+    </form>
+  </div>
+</body>
+</html>*/
