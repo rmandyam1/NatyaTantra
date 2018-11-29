@@ -3,17 +3,24 @@
 <head>
   <title>About</title>
   <style>
+  .container {
+    /*position: absolute;*/
+    text-align: center;
+    color: white;
+    background-image: url("Images used/About.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
   body
   {
-    background-color: black;
-    background-image: "Images used/About.png";
+    background-color: white;
     margin: 0;
     padding: 0;
   }
   p
   {
     color: black;
-    font-size: 100px;
+    font-size: 20px;
     text-align: center;
     font-family: Constantia, Cambria, serif;
   }
@@ -27,24 +34,27 @@
     font-family: "Libby Heavy", Cambria, serif;
     font-size: 12px;
     list-style-type: none;
-    margin: -4px;
+    margin: 0px;
     padding: 0;
     overflow: hidden;
-    background-color: #FBF2A3/*#333*/;
+    background-color: black/*#FBF2A3/*#333*/;
     position: fixed;
     top: 0;
     width: 100%;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
+    /*position: -webkit-sticky; /* Safari */
+    /*position: sticky;*/
     top: 0;
     line-height: 50px;
+  }
+  img {
+  	float: left;
   }
   li b {
     float: left;
   }
   li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 17px;
     text-decoration: none;
@@ -70,20 +80,62 @@
     float: left;
 
   }
+  .centered {
+    position: absolute;
+    size: 300px;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+  div {		
+	font-family: Constantia, Cambria, serif;		
+	font-size: 35px;		
+	font-weight: bold;		
+	color: black;		
+	text-align: center;
+  /*}
+  background {
+	background-image: url("D:/Launchpad/Dance Pics/DSC_2880.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    background: rgba(2255,255,0,0.3);*/
+  }
+  .container img {
+    /*position: relative;*/
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.2;
+  }
+  x {
+  	font-size: 25px;
+  }
 </style>
 </head>
 <body>
-  <ul>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="theorylesson.html">Theory Lesson</a></li>
-    <li><a href="lessons.html">Lessons</a></li>
-    <li><a class="active" href="about.html">About</a></li>
-    <li><a href="whatisbharatanatyam.html">What is Bharatanatyam?</a></li>
-    <li><a href="NatyaTantra.html">Home</a></li>
-    <li><b href="NatyaTantra.html"><img src="D:\Launchpad\logo1.png" class="logo"></b></li>
-  </ul>
-  <h1>What is this?</h1>
+	<div>
+  		<ul>
+    		<li><a href="contact.html">Contact</a></li>
+    		<li><a href="theorylesson.html">Theory Lesson</a></li>
+    		<li><a href="lessons.html">Lessons</a></li>
+    		<li><a class="active" href="about.html">About</a></li>
+    		<li><a href="whatisbharatanatyam.html">What is Bharatanatyam?</a></li>
+    		<li><a href="NatyaTantra.html">Home</a></li>
+    		<li><b href="NatyaTantra.html"><img src="D:\Launchpad\Images used\FinalLogo.png" class="logo"></b></li>
+  		</ul>
+	</div>
+	<div class="container">
+		<!--<img src="D:/Launchpad/Images used/About.png" style="width:100%;">-->
+		<br><br><br>
+    	<!--<p class="centered" style="margin-right: 25px;margin-top: 25px;">
+    		<img src="IMG_0280.jpg" style="width:250px;height:340px;margin-left:15px;">-->
+  	  		<x style="margin-right: 25px;margin-top: 25px;margin-left: 25 px;"><br><br>Hello, my name is Ramya and I am just your fellow college student, Bharatanatyam dancer and lover of coding. (Don't know what Bharatanatyam is? Click <a href="whatisbharatanatyam.html">here</a> to find out!) Since I love both dancing and coding so much, I decided to integrate the two and make an amazing project out of it - and this is where Natyatantra began.<br><br>I plan to keep adding tutorials and theory lessons because learning never stops, and at Natyatantra, no matter who we are, we are here to learn.</x>
+  	  	<!--</p>-->
+  	  	<br><br><br>
+  	</div>
 
-
+	<div>
+	</div>
 </body>
 </html>
