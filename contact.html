@@ -5,7 +5,7 @@
   <style>
   body
   {
-    background-color: black;
+    background-color: white;
     /*background-image: "D:/Launchpad/background4.jpg";*/
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@
   p
   {
     color: black;
-    font-size: 100px;
+    font-size: 25px;
     text-align: center;
     font-family: Constantia, Cambria, serif;
   }
@@ -21,10 +21,10 @@
     font-family: "Libby Heavy", Cambria, serif;
     font-size: 12px;
     list-style-type: none;
-    margin: -4px;
+    margin: 0px;
     padding: 0;
     overflow: hidden;
-    background-color: #FBF2A3/*#333*/;
+    background-color: black/*#FBF2A3/*#333*/;
     position: fixed;
     top: 0;
     width: 100%;
@@ -38,7 +38,7 @@
   }
   li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 17px;
     text-decoration: none;
@@ -64,18 +64,41 @@
     float: left;
 
   }
+  div {		
+	font-family: Constantia, Cambria, serif;		
+	font-size: 35px;		
+	font-weight: bold;		
+	color: black;		
+	text-align: center;
+  }
 </style>
 </head>
 <body>
-	<ul>
-
-    <li><a class="active" href="contact.html">Contact</a></li>
-    <li><a href="theorylesson.html">Theory Lesson</a></li>
-    <li><a href="lessons.html">Lessons</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="whatisbharatanatyam.html">What is Bharatanatyam?</a></li>
-    <li><a href="NatyaTantra.html">Home</a></li>
-    <li><b href="NatyaTantra.html"><img src="D:\Launchpad\logo1.png" class="logo"></b></li>
-  </ul>
+	<div>
+		<ul>
+			<li><a class="active" href="contact.html">Contact</a></li>
+			<li><a href="theorylesson.html">Theory Lesson</a></li>
+			<li><a href="lessons.html">Lessons</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="whatisbharatanatyam.html">What is Bharatanatyam?</a></li>
+			<li><a href="NatyaTantra.html">Home</a></li>
+			<li><b href="NatyaTantra.html"><img src="D:\Launchpad\Images used\FinalLogo.png" class="logo"></b></li>
+		</ul>
+	</div>
+	
+  <div class="container" style="color: black">
+  	<img src="Images used\background7.jpg" style="width: 10%">
+  	<br><br><br>
+  	<div class="centered">
+    <h5>Contact</h5>
+    <p>If you ever wish to get in touch with me, do not hesitate to contact on rmandyam@purdue.edu or through the contact box given below. You can talk to me about dance, college, programming, T.V. Shows, dogs, art and life in general :) Let's talk!</p>
+    <form>
+      Name: <input type="text" name="fname" value="First Name" required><br>
+      Email: <input type="text" name="email" value="Email" required><br>
+      Message: <input type="text" name="message" value="Message" required><br>
+      <input type="button" name= "submit" value = "Get in touch!"><br>
+    </form>
+	</div>
+  </div>
 </body>
 </html>
