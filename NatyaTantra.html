@@ -36,7 +36,7 @@
     top: 0;
     width: 100%;
     /*position: -webkit-sticky; /* Safari */
-    position: fixed;
+    /*position: sticky;*/
     top: 0;
     line-height: 50px;
   }
@@ -88,8 +88,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-.parallax {
+  }
+  .parallax {
     /* The image used */
     background-image: url("HomePage.jpg");
 
@@ -101,7 +101,16 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    }
+  }
+  .Bharatanatyam {
+    background-image: url("background5.jpg");
+  }
+  .Working {
+    background-image: url("background3.jpg");
+  }
+  .Silhouette img {
+    float: right;
+  }
   </style>
 
 </head>
@@ -115,7 +124,7 @@
     <li><a href="about.html">About</a></li>
     <li><a href="whatisbharatanatyam.html">What is Bharatanatyam?</a></li>
     <li><a class="active" href="NatyaTantra.html">Home</a></li>
-    <li><b href="NatyaTantra.html"><img src="logo1.png" class="logo"></b></li>
+    <li><b href="NatyaTantra.html"><img src="D:\Launchpad\FinalLogo.png" class="logo"></b></li>
   </ul>
   </div>
   <div class="container">
@@ -127,111 +136,27 @@
   </div>
   <!--<div class="parallax"></div>
   <div style="height:1000px;color:black;font-size:36px">
-    <h1>Want to learn Bharatanayam?</h1>
+    <h1>Want to learn Bharatanatyam?</h1>
   </div>-->
-  <div style="color: black">
+  <div class="Bharatanatyam">
+    <h5><br><br><br><br><br>Don't know what Bharatanatyam is?</h5>
+    <p>It is an ancient classical dance form from the southern part of the country India.<br>To learn more, go <a href="whatisbharatanatyam.html">here</a>.<br><br><br><br><br><br></p>
+  </div>
+  <div class="Working">
+    <div class="Silhouette">
+      <br>
+      <img src="HomePage1.png" alt="Bharatanatyam" style="width:310px;height:510px;margin-left:15px;"><br>
+      <h5><br><br><br>How does it work?</h5>
+      <p style="margin-left:15px;">Here at Natyatantra, we use stick figures and animations to teach you the <i>adavus</i>. The entire class is divided into small lessons to help you get through it easily. (Start learning today! <a href="lessons.html">Go!</a>) If you get tired with all the dance lessons, you can head on over to the <a href="theorylesson.html">Theory Lesson</a> page and learn about the history and culture behind Bharatanatyam.<br><br><br><br><br></p>
+    </div>
+  </div>
+  <!-- <div style="color: black">
     <h1 >Contact us!</h1>
     <form>
       Name: <input type="text" name="fname" value="First Name" required><br>
       Email: <input type="text" name="email" value="Email" required><br>
       <input type="button" name= "submit" value = "Submit"><br>
     </form>
-  </div>
+  </div> -->
 </body>
 </html>
-<!--
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Natya Tantra</title>
-  <style>
-  body
-  {
-    background-color: black;
-    /*background-image: "D:/Launchpad/background4.jpg";*/
-    margin: 0;
-    padding: 0;
-  }
-  p
-  {
-    color: black;
-    font-size: 100px;
-    text-align: center;
-    font-family: Constantia, Cambria, serif;
-  }
-  ul {
-    font-family: "Libby Heavy", Cambria, serif;
-    font-size: 12px;
-    list-style-type: none;
-    margin: -4px;
-    padding: 0;
-    overflow: hidden;
-    background-color: #FBF2A3/*#333*/;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    line-height: 50px;
-  }
-  li b {
-    float: left;
-  }
-  li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 17px;
-    text-decoration: none;
-    float: right;
-  }
-  li a:hover:not(.active) {
-    opacity: 0.5;
-  }
-  .active {
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .logo {
-    display: block;
-    width: 380px;
-    font-size: 0;
-    height: 78px;
-    top: 0px;
-    display:inline-block;
-    padding:0px;
-    margin-left:0px;
-    margin-right: 0px;
-    float: left;
-
-  }
-  div {
-    font-family: Constantia, Cambria, serif;
-    color: white;
-    text-align: center;
-  }
-  </style>
-</head>
-<body>
-  <ul>
-
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="theorylesson.html">Theory Lesson</a></li>
-    <li><a href="lessons.html">Lessons</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="whatisbharatanatyam.html">What is Bharatanatyam?</a></li>
-    <li><a class="active" href="NatyaTantra.html">Home</a></li>
-    <li><b href="NatyaTantra.html"><img src="D:\Launchpad\logo1.png" class="logo"></b></li>
-  </ul>
-  <div>
-    <h1>Contact us!</h1>
-    <form>
-      Name: <input type="text" name="fname" value="First Name" required><br>
-      Email: <input type="text" name="email" value="Email" required><br>
-      <input type="button" name= "submit" value = "Submit"><br>
-    </form>
-  </div>
-</body>
-</html>
--->
