@@ -47,9 +47,6 @@
     top: 0;
     line-height: 50px;
   }
-  img {
-  	float: left;
-  }
   li b {
     float: left;
   }
@@ -79,13 +76,12 @@
     margin-left:0px;
     margin-right: 0px;
     float: left;
-
   }
   .centered {
     position: absolute;
     size: 300px;
     top: 50%;
-    left: 35%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
   div {		
@@ -101,16 +97,17 @@
     background-size: cover;
     background: rgba(2255,255,0,0.3);*/
   }
-  .container img {
-    /*position: relative;*/
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-    opacity: 0.2;
+  .Myimage img {
+    float: right;
+  }
+  .Facts {
+  	background-color: #eccb79;/*url("Images used/background8.jpg");*/
   }
   x {
-  	font-size: 25px;
+  	font-size: 23px;
+  }
+  .Endbar {
+  	background-color: black;
   }
 </style>
 </head>
@@ -128,15 +125,21 @@
 	</div>
 	<div class="container">
 		<!--<img src="D:/Launchpad/Images used/About.png" style="width:100%;">-->
-		<br><br><br>
+		<br>
     	<!--<p class="centered" style="margin-right: 25px;margin-top: 25px;">
     		<img src="IMG_0280.jpg" style="width:250px;height:340px;margin-left:15px;">-->
-  	  		<x style="margin-right: 25px;margin-top: 25px;margin-left: 25 px;"><br><br>Hello, my name is Ramya and I am just your fellow college student, Bharatanatyam dancer and lover of coding. (Don't know what Bharatanatyam is? Click <a href="whatisbharatanatyam.html">here</a> to find out!) Since I love both dancing and coding so much, I decided to integrate the two and make an amazing project out of it - and this is where Natyatantra began.<br><br>I plan to keep adding tutorials and theory lessons because learning never stops, and at Natyatantra, no matter who we are, we are here to learn.<br><br></x>
+  	  		<x style="margin-right: 25px;margin-top: 25px;color:black;"><br><br><br><br>Hello, my name is Ramya and I am  a fellow college student, Bharatanatyam dancer and lover of coding. (Don't know what Bharatanatyam is? Click <a href="whatisbharatanatyam.html">here</a> to find out!) Since I love both dancing and coding so much, I decided to integrate the two and make an amazing project out of it - and this is where Natyatantra began.<br><br><br><br>I plan to keep adding tutorials and theory lessons because learning never stops, and at Natyatantra, no matter who we are, we are here to learn.<br><br></x>
   	  	<!--</p>-->
   	  	<br><br><br>
   	</div>
-
-	<div>
+	<div class="Facts">
+		<div class="Myimage">
+			<br>
+			<img src="Images used/IMG_0280.jpg" style="width:360px;height:500px;margin-left:15px;margin-right: 15px">
+		<x style="margin-right: 25px;margin-top: 25px;color:black;"><br>Fun facts about me:<br>1. I love doggos more than anything in the whole world! They are a gift to humanity and we don't deserve their purity (but I wouldn't give up those floofers for a second)<br>2. I watch soccer, mainly English Premier League and have been a supporter of Manchester United FC for a long time now.<br>3. I love chocolate, because it is the next best thing on the planet after dogs.<br>4. Super big fan of The Office, Brooklyn-Nine-Nine and the Flash (although I am aware that the Flash is not the best TV show out there.)<br>5. I am a strong believer of the fact that DC is better than Marvel, irrespective of whether we are talking about comics or movies (I will fight you on this if you disagree)<br><br></x>
+	</div>
+	</div>
+	<div class="EndBar">
 	</div>
 </body>
 </html>
