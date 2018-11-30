@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="icon" type="image/gif/png" href="Images used/icon.png">
   <title>Contact</title>
-  <link rel="icon" type="image/gif/png" href="Images used/icon.png">
   <style>
   body
   {
     background-color: white;
+    background-image: url("Images used/background5.jpg");
     /*background-image: "D:/Launchpad/background4.jpg";*/
     margin: 0;
     padding: 0;
@@ -65,17 +66,20 @@
     float: left;
 
   }
+  /*.centered {
+  	text-align: center;
+  	position: absolute;
+    size: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+  }
   div {		
 	font-family: Constantia, Cambria, serif;		
 	font-size: 35px;		
 	font-weight: bold;		
 	color: black;		
 	text-align: center;
-  }
-  .size
-  {
-    height: 20%;
-    width: 100%;
   }
 </style>
 </head>
@@ -93,17 +97,18 @@
 	</div>
 	
   <div class="container" style="color: black">
-  	<div class="centered">
-    <h5>Contact</h5>
-    <p>If you ever wish to get in touch with me, do not hesitate to contact on rmandyam@purdue.edu or through the contact box given below. You can talk to me about dance, college, programming, T.V. Shows, dogs, art and life in general :) Let's talk!</p>
-    <form>
-      Name: <input type="text" name="fname" value="First Name" required><br>
-      Email: <input type="text" name="email" value="Email" required><br>
-      Message: <input type="text" name="message" value="Message" required><br>
-      <input type="button" name= "submit" value = "Get in touch!"><br>
-    </form>
-	</div>
-	
-  </div>
+  	<br>
+  		<div class="centered" style="text-align: center;font-weight: bolder">
+  			<!-- <img src="Images used\contact.jpg" style="width: 10%;float: right;"> -->
+    		<h4 style="font: Constantia;font-size: 35px">Contact</h4>
+    		<p>If you ever wish to get in touch with me, do not hesitate to contact me<br>on rmandyam@purdue.edu or through the contact box given below.<br>You can talk to me about dance, college, programming, T.V. Shows,<br>dogs, art and life in general :) Let's talk!</p>
+    		<form style="font-size: 25px;">
+      			Name: <input type="text" name="fname" value="First Name" required><br>
+      			Email: <input type="text" name="email" value="Email" required><br>
+      			Message: <textarea style="margin-top: 10px; width: 165px; height: 80px;" type="text" name="message" value="Message" required></textarea><br>
+      			<input type="button" name= "submit" value = "Get in touch!"><br><br><br>
+    		</form>
+		</div>
+  	</div>
 </body>
 </html>
